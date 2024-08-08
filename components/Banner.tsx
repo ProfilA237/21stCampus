@@ -18,12 +18,12 @@ const Banner = () => {
         </p>
         <div className="flex gap-5">
           <Link href={"/sign-in"}>
-            <Button className=" w-40 bg-transparent font-bold border-2 text-slate-900 border-slate-900 hover:bg-orange-400 hover:text-white hover:border-none">
+            <Button className=" w-40 shadow-lg rounded bg-transparent font-bold border-2 text-slate-900 border-slate-900 hover:bg-orange-400 hover:text-white hover:border-none">
               Sign In
             </Button>
           </Link>
           <Link href={"/sign-up"}>
-            <Button className="brand-bg-1 w-40 font-bold rounded text-white hover:bg-orange-400">
+            <Button className="brand-bg-1 w-40 shadow-lg font-bold rounded text-white hover:bg-orange-400">
               Sign Up
             </Button>
           </Link>
