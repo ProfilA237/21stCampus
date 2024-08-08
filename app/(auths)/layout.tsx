@@ -27,7 +27,7 @@ export default function AuthLayout({
       </Head>
       <main className="relative h-screen w-full">
         <div className=" z-0 absolute size-full">
-          <Image src={"/icons/logo1.svg"} alt="" fill className="size-full" />
+          <Image src={"/icons/logo.svg"} alt="" fill className="size-full" />
         </div>
         {children}
       </main>
